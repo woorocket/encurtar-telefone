@@ -1,0 +1,34 @@
+<script>
+jQuery(document).ready(function () {
+jQuery("#botao-telefone").click( function(){ 
+jQuery("#telefone").show();
+ jQuery("#botao-telefone").hide();
+jQuery(".sumir").hide();
+})
+
+
+jQuery("#botao-telefone-2").click( function(){ 
+jQuery("#telefone-2").show();
+ jQuery("#botao-telefone-2").hide();
+jQuery(".sumir-2").hide();
+})
+
+jQuery("#botao-telefone-3").click( function(){ 
+jQuery("#telefone-3").show();
+ jQuery("#botao-telefone-3").hide();
+jQuery(".sumir-3").hide();
+})
+
+
+});
+</script>
+
+<style>
+#telefone, #telefone-2, #telefone-3 {
+display:none;
+}
+</style>
+
+<p><span class="sumir-2">0000-00...</span>
+<span id="botao-telefone-2" style="text-decoration: underline; cursor: pointer;">ver</span>
+<span id="telefone-2">00000</span></p>
